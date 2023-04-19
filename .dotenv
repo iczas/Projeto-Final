@@ -1,0 +1,4 @@
+DB_NOME="games"
+DB_USUARIO="root"
+DB_SENHA=""
+DB_HOST="localhost"
