@@ -1,7 +1,7 @@
 const { Jogos } = require('../../infra')
 
-async function criarJogo(novoJogo) {
-    const novoJogo = await Jogos.create(novoJogo);
+async function criarJogo(jogo) {
+    const novoJogo = await Jogos.create(jogo);
 
     return novoJogo;
 }

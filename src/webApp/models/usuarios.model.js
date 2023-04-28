@@ -1,7 +1,7 @@
 const {Usuarios, Credencial} = require('../../infra')
 
-async function cadastrarUsuario (novoUsuario){
-const novoUsuario = await Credencial.create(novoUsuario)
+async function cadastrarUsuario (usuario){
+const novoUsuario = await Credencial.create(usuario)
 
     return novoUsuario; 
 }
